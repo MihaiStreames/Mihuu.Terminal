@@ -1,0 +1,21 @@
+TerminalMihuu> [mihai]: ~'/home/mihai/Desktop/Codink/C/TerminalMihuu/cmake-build-debug'$ echo $var
+$var
+TerminalMihuu> [mihai]: ~'/home/mihai/Desktop/Codink/C/TerminalMihuu/cmake-build-debug'$ var=Hello W
+TerminalMihuu> [mihai]: ~'/home/mihai/Desktop/Codink/C/TerminalMihuu/cmake-build-debug'$ Failed to execute command: var=Hello
+var="Hello W"
+Failed to execute command: var="Hello
+
+-- Supposed to be --
+bash: W: command not found //error handling that i haven't done yet
+Hello W
+
+Hello World
+Hello World
+Hello World
+${var}orld
+
+
+TerminalMihuu> [mihai]: ~'/home/mihai/Desktop/Codink/C/TerminalMihuu/cmake-build-debug'$ echo a{1,2,3}b
+a{1,2,3}b
+-- Supposed to be --
+a1b a2b a3b

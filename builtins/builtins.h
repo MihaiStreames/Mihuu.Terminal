@@ -1,0 +1,6 @@
+#ifndef TERMINALMIHUU_BUILTINS_H
+#define TERMINALMIHUU_BUILTINS_H
+
+void builtin_cd(char* path);
+
+#endif //TERMINALMIHUU_BUILTINS_H
